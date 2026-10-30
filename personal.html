@@ -173,19 +173,16 @@
             border-radius: 10px;
             animation: grow 1.5s ease;
         }
-
         /* Resume */
         .resume {
             text-align: center;
             background: #e5f6fc;
         }
-
         /* Contact Form */
         .contact-form {
             max-width: 600px;
             margin: auto;
         }
-
         .contact-form input,
         .contact-form textarea {
             width: 100%;
@@ -195,25 +192,21 @@
             border-radius: 7px;
             font: inherit;
         }
-
         .contact-form input:focus,
         .contact-form textarea:focus {
             outline: 2px solid #38bdf8;
         }
-
         .contact-form button {
             border: none;
             cursor: pointer;
             font-size: 16px;
         }
-
         footer {
             background: #101828;
             color: white;
             text-align: center;
             padding: 20px;
         }
-
         /* Animations */
         @keyframes fadeIn {
             from {
@@ -225,44 +218,36 @@
                 transform: translateY(0);
             }
         }
-
         @keyframes float {
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-10px); }
         }
-
         @keyframes grow {
             from { width: 0; }
         }
-
         /* Mobile Responsive Design */
         @media (max-width: 768px) {
             header {
                 flex-direction: column;
                 gap: 12px;
             }
-
             nav {
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
                 gap: 10px;
             }
-
             nav a {
                 margin: 0;
                 font-size: 14px;
             }
-
             .hero h1 {
                 font-size: 32px;
             }
-
             section {
                 padding: 45px 6%;
             }
         }
-
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
                 animation: none !important;
@@ -272,9 +257,7 @@
         }
     </style>
 </head>
-
 <body>
-
     <!-- Navigation -->
     <header>
         <h2>MyPortfolio</h2>
@@ -287,18 +270,15 @@
             <a href="#contact">Contact</a>
         </nav>
     </header>
-
     <!-- Home Section -->
     <section class="hero" id="home">
         <!-- Replace profile.jpg with your own photo -->
         <img src="profile.jpg" alt="My profile photo">
-
         <h1>Hello, I'm <span>Your Name</span></h1>
         <p>Student | Web Developer | Technology Enthusiast</p>
         <p>Welcome to my personal portfolio website!</p>
         <a href="#about" class="btn">Explore My Portfolio</a>
     </section>
-
     <!-- About Section -->
     <section id="about">
         <h2 class="section-title">About Me</h2>
@@ -312,7 +292,6 @@
             </p>
         </div>
     </section>
-
     <!-- Education Section -->
     <section id="education">
         <h2 class="section-title">Educational Qualifications</h2>
@@ -323,14 +302,12 @@
                 <p>College: Your College Name</p>
                 <p>Year: 2026 - Present</p>
             </div>
-
             <div class="card">
                 <h3>Intermediate</h3>
                 <p>College: Your Junior College</p>
                 <p>Group: MPC / Your Group</p>
                 <p>Year: Your Passing Year</p>
             </div>
-
             <div class="card">
                 <h3>Schooling</h3>
                 <p>School: Your School Name</p>
@@ -339,28 +316,24 @@
             </div>
         </div>
     </section>
-
     <!-- Skills Section -->
     <section id="skills">
         <h2 class="section-title">Technical Skills</h2>
         <div class="cards">
             <div class="card">
                 <h3>Programming Skills</h3>
-
                 <div class="skill">
                     <p>HTML</p>
                     <div class="progress">
                         <div style="width: 85%"></div>
                     </div>
                 </div>
-
                 <div class="skill">
                     <p>CSS</p>
                     <div class="progress">
                         <div style="width: 75%"></div>
                     </div>
                 </div>
-
                 <div class="skill">
                     <p>Python</p>
                     <div class="progress">
@@ -368,7 +341,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <h3>Other Skills</h3>
                 <p>Problem Solving</p>
@@ -378,26 +350,24 @@
             </div>
         </div>
     </section>
-
     <!-- Hobbies Section -->
     <section id="hobbies">
         <h2 class="section-title">My Hobbies</h2>
         <div class="cards">
             <div class="card">
-                <h3>📚 Reading</h3>
+                <h3> Reading</h3>
                 <p>Learning new things and exploring technology.</p>
             </div>
             <div class="card">
-                <h3>💻 Coding</h3>
+                <h3> Coding</h3>
                 <p>Practicing programming and building websites.</p>
             </div>
             <div class="card">
-                <h3>🎵 Music</h3>
+                <h3> Music</h3>
                 <p>Listening to music in my free time.</p>
             </div>
         </div>
     </section>
-
     <!-- Projects Section -->
     <section id="projects">
         <h2 class="section-title">My Projects</h2>
@@ -407,13 +377,11 @@
                 <p>A responsive website showcasing my profile,
                    skills, education, and projects.</p>
             </div>
-
             <div class="card">
                 <h3>College Website</h3>
                 <p>A sample website displaying college information,
                    departments, courses, and facilities.</p>
             </div>
-
             <div class="card">
                 <h3>Python Mini Project</h3>
                 <p>A simple programming project to practice
@@ -421,7 +389,6 @@
             </div>
         </div>
     </section>
-
     <!-- Achievements Section -->
     <section id="achievements">
         <h2 class="section-title">Achievements</h2>
@@ -440,7 +407,6 @@
             </div>
         </div>
     </section>
-
     <!-- Resume Section -->
     <section class="resume" id="resume">
         <h2 class="section-title">My Resume</h2>
@@ -450,44 +416,34 @@
             Download Resume
         </a>
     </section>
-
     <!-- Contact Section -->
     <section id="contact">
         <h2 class="section-title">Contact Me</h2>
-
         <div class="contact-form">
             <form action="mailto:yourmail@example.com"
                   method="post" enctype="text/plain">
-
                 <input type="text" name="name"
                        placeholder="Your Name" required>
-
                 <input type="email" name="email"
                        placeholder="Your Email" required>
-
                 <input type="text" name="subject"
                        placeholder="Subject" required>
-
                 <textarea name="message" rows="5"
                           placeholder="Your Message"
                           required></textarea>
-
                 <button type="submit" class="btn">
                     Send Message
                 </button>
             </form>
-
             <p style="text-align:center; margin-top:20px;">
                 Email: yourmail@example.com
             </p>
         </div>
     </section>
-
     <!-- Footer -->
     <footer>
         <p>&copy; 2026 Your Name | Personal Portfolio</p>
         <p>Designed with HTML and CSS</p>
     </footer>
-
 </body>
 </html>
